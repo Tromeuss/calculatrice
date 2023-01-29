@@ -1,0 +1,11 @@
+REQUIS 
+- Reproduite en HTMM/CSS la calculatrice prévue dans l'image base.png
+- les touches MC et M+ ne sont pas réactives.
+- La touche "égal" doit représenter la hauteur de deux touches
+- Vous ne devez pas faire apparaitre d'opérateur de calcul dans l'écran de la calculette
+- le comportement de votre calculette est semblable à celle que votre maman garde dans un tiroir de la cuisine depuis votre enfance
+- chaque "click" sur opérateur impérative un nouveau nombre
+- votre calculette ne gère pas plus de 11 caractère
+- votre calculette ne gère pas les divisions par 0
+- Une bonne police pour touche et cadran 
+
