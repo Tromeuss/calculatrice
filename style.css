@@ -74,15 +74,10 @@ body
     font-size: 25px;
     font-family: 'Roboto Mono', monospace;
     cursor: pointer;
-    box-shadow: 0 0 7px rgba(18, 18, 18, 0.5);
-    transition: box-shadow 0.3s ease-out;
+    border-radius:  5px;
 
 }
 
-.touche:hover
-{
-    box-shadow: 0 0 13px rgba(18, 18, 18, 0.8);
-}
 
 .touche.tone 
 {
@@ -93,14 +88,42 @@ body
 {
     background-color: #034960;
     font-size: 30px;
+    box-shadow: 0 6px #042632;
 }
 
 .touche.rouge
 {
     background-color: #880D0D;
+    box-shadow: 0 6px #630A0A;
 }
 
 .touche.n
 {
     background-color: #78BBD3;
+    box-shadow: 0 6px #0C92C3;
+}
+
+
+
+.touche.bleu:hover
+{
+    box-shadow: 0 4px #042632;
+    position: relative;
+    top: 2px;
+}
+
+
+.touche.rouge:hover
+{
+    box-shadow: 0 4px #630A0A;
+    position: relative;
+    top: 2px;
+}
+
+
+.touche.n:hover
+{
+    box-shadow: 0 4px #0C92C3;
+    position: relative;
+    top: 2px;
 }
